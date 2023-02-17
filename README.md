@@ -6,6 +6,7 @@ Currently reverse engineering the custom network and data serializtion protocol.
 
 ### Folders
 /auth the auth service that runs on TCP port 1871
+
 /game the game server that runs on UDP port 1870
 
 ## Running
