@@ -1,0 +1,9 @@
+#lock files
+Cargo.lock
+/auth/Cargo.lock
+/game/Cargo.lock
+
+#compiled
+/auth/target
+/game/target
+/target

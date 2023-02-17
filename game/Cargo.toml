@@ -1,0 +1,21 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argh = "0.1.9"
+rustls-pemfile = "1.0.1"
+tokio = { version = "1.21.2", features = ["full"] }
+tokio-rustls = "0.23.4"
+ring = "0.16.20"
+bytes = "1.2.1"
+getrandom = "0.2.7"
+num_cpus = "1.14.0"
+sqlx = { version = "0.6.2", features = [ "runtime-tokio-rustls", "sqlite", "chrono" ] }
+dashmap = { version = "5.4.0", features = ["serde"] }
+flume = "0.10.14"
+socket2 = { version = "0.4.7", features = ["all"] }
+nom = "7.1.2"
